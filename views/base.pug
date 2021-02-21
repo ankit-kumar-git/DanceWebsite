@@ -1,0 +1,22 @@
+//Base Template or Layout Template
+doctype html
+html
+  head
+    title Ankit Dance Academy
+    block scripts
+    block style
+      
+  body
+    nav#navbar
+       ul
+          div#logo 
+              img(src="/static/img/Logo.png")
+              | ADA
+          li #[a(href='/home') Home]
+          li #[a(href='/about') About]
+          li #[a(href='/services') Services]
+          li #[a(href='/classInfo') Class Info]
+          li #[a(href='/contact') Contact Us]
+    block content
+    footer#footer
+        | Copywrite &copy 2019 AnkitDanceAcademy.com | All rights reserved.  

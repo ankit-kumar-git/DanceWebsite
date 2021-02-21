@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin:10px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    height:400px;
+    align-items: center;
+}
+.myForm{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%
+}
+.myInput{
+    font-family: fangsong;
+    width: 45%;
+    padding: 6px 10px;
+    margin: 6px;
+    font-size: 16px;
+    border: 2px solid #821d1d;
+    border-radius: 6px;
+    font-weight: bold;
+    outline: none;
+}
+.btn{
+    cursor: pointer;
+    color: white;
+    margin-top: 21px;
+    border-radius: 7px;
+    border: 2px solid #823838;
+    font-size: 18px;
+    padding: 5px 16px;
+    background: balck;
+    background: #611f1f;
+    outline: none;
+}

@@ -1,0 +1,68 @@
+//- This is a template to use pug.This will render the real html.
+doctype html
+html
+  head
+    title Ankit Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+          div#logo 
+              img(src="/static/img/Logo.png")
+              | ADA
+          li #[a(href='/home') Home]
+          li #[a(href='/about') About]
+          li #[a(href='/services') Services]
+          li #[a(href='/classInfo') Class Info]
+          li #[a(href='/contact') Contact Us]
+
+    section#introSection
+        div Welcome to Ankit's Dance Academy
+        div.small Eat Dance Sleep Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.cards
+          div.card 
+             h3 Dance Perfection
+             div.card-box 
+              div.card-img
+                img(src="/static/img/1.png")
+              div.card-content 
+                p This is the best dance academy of  the world 
+
+
+          div.card 
+             h3 Dance the way you like
+             div.card-box 
+              div.card-img
+                img(src="/static/img/2.png")
+              div.card-content 
+                p This is the best dance academy of  the world 
+
+          div.card 
+             h3 Expert Teaching
+             div.card-box 
+              div.card-img
+                img(src="/static/img/3.png")
+              div.card-content 
+                p This is the best dance academy of  the world   
+
+           
+          
+
+    section#sponserSection
+        h2 Our Sponsors
+        div#sponsors 
+           img(src="/static/img/Logo2.png", alt="Sponsor Image" class="spImage")
+           img(src="/static/img/Logo1.png", alt="Sponsor Image" class="spImage")
+           img(src="/static/img/Logo4.png", alt="Sponsor Image" class="spImage")
+           img(src="/static/img/Logo3.jpg", alt="Sponsor Image" class="spImage")
+
+
+    footer#footer
+        | Copywrite &copy 2019 AnkitDanceAcademy.com | All rights reserved. 
+    script
+      include ../static/index.js
+      
